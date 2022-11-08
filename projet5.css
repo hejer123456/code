@@ -1,0 +1,169 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Fira Sans', sans-serif
+}
+.clear-booth
+{
+    clear: both;
+}
+
+/* start header*/
+.header
+{
+    margin: 20px 150px;
+}
+.header h3
+{
+    float: left;
+    font-size: 25px;
+}
+.header h3 span
+{
+    color: #03a9f4;
+}
+
+.header .Navbar
+{
+    float: right;
+}
+.header .Navbar ul li
+{
+    list-style: none;
+    float: left;
+    margin-left: 25px;
+}
+.header .Navbar ul li a
+{
+   text-decoration: none;
+   color: black;
+}
+
+/* end header*/
+
+/*start main*/
+
+.main
+{
+    margin: 10px 150px;
+    margin-top: 90px;   
+}
+.main .description
+{
+    float: left;
+    width: 500px;  
+    margin-top: 50px;
+}
+.main .description p
+{
+  font-size: 25px;
+  color: #03a9f4; 
+  
+}
+.main .description h1
+{
+  font-size: 90px;
+  margin: 10px 0px 50px 0px;
+
+}
+.main .description button
+{
+ padding: 6px 20px;
+ background-color: #03a9f4;
+ border: none;
+ color: white;
+ cursor: pointer;
+}
+.main .description a
+{
+ margin-left: 20px;
+ color:#03a9f4;
+ text-decoration: none;
+ cursor: pointer;
+}
+.main img
+{
+    width: 600px;
+    height: 400px;
+
+}
+.main .photos
+{
+    float: right;
+   
+} 
+
+/*end main*/
+
+/*start footer*/
+
+.footer
+{
+    margin-top: 313px;
+    background-color: #03a9f4;
+    height: 120px;  
+}
+.footer .description-footer
+{
+    margin-left: 150px;
+    color: white;
+    width: 750px;
+    float: left;   
+}
+.footer .description-footer .description-footer1
+{
+    float: left;
+    width: 220px;
+    height: 120px;
+}
+.footer .description-footer .description-footer1:hover
+{
+ color: black;
+ background-color:gainsboro ;
+ width:250px;
+}
+.footer .description-footer .description-footer3
+{
+    width: 220px;
+    height: 120px;
+    float: right;
+}
+.footer .description-footer .description-footer3:hover
+{
+ color: black;
+ background-color:gainsboro ;
+ width: 250px;
+}
+
+.footer .description-footer .description-footer2
+{
+   width: 220px;
+   height: 120px;
+   float: right;
+   margin-left: 50px;
+}
+.footer .description-footer .description-footer2:hover
+{
+ color: black;
+ background-color:gainsboro ;
+ width: 250px;
+}
+
+
+.footer .page-suivante
+{
+    margin-right: 150px;
+}
+.footer .page-suivante button
+{
+    background-color: #03a9f4;
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin-left: 15px;
+    float: right;
+    cursor: pointer;
+}
+
+/*end footer*/
